@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../FastApiTut/FastApiDemo/.idea/FastApiDemo.iml" filepath="$PROJECT_DIR$/../FastApiTut/FastApiDemo/.idea/FastApiDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/FocusFlowApi.iml" filepath="$PROJECT_DIR$/.idea/FocusFlowApi.iml" />
     </modules>
   </component>
