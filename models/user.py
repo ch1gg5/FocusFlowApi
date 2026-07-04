@@ -1,6 +1,7 @@
 from database.base import Base
 from sqlalchemy import Column, Integer, String, DateTime
 from sqlalchemy.sql import func
+from sqlalchemy.orm import relationship
 
 class User(Base):
     __tablename__ = "users"
@@ -20,3 +21,5 @@ class User(Base):
         server_default=func.now(),
         onupdate=func.now()
     )
+
+    sessions = relationship("Session", back_populates="user")

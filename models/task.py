@@ -26,3 +26,4 @@ class Task(Base):
 
     user = relationship("User")
     category = relationship("Category", back_populates="tasks")
+    sessions = relationship("Session", back_populates="task")
